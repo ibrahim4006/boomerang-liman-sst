@@ -1,0 +1,21 @@
+2023-08-23T18:54:16.254Z  +3250ms [debug] Config loaded {"version":"2.24.12","cdkVersion":"2.91.0","constructsVersion":"10.2.69","config":{"name":"boomerang-liman","region":"us-east-1","stage":"dev","ssmPrefix":"/sst/boomerang-liman/dev/"},"metafile":{"inputs":{"sst.config.ts":{"bytes":219,"imports":[{"path":"sst","kind":"import-statement","external":true},{"path":"sst/constructs","kind":"import-statement","external":true}],"format":"esm"}},"outputs":{".sst.config.1692816855173.mjs":{"imports":[],"exports":["default"],"entryPoint":"sst.config.ts","inputs":{"sst.config.ts":{"bytesInOutput":130}},"bytes":312}}},"paths":{"config":"C:\\Users\\brhmr\\Desktop\\sst-examples2\\boomerang-liman\\sst.config.ts","root":"C:\\Users\\brhmr\\Desktop\\sst-examples2\\boomerang-liman","out":"C:\\Users\\brhmr\\Desktop\\sst-examples2\\boomerang-liman\\.sst","artifacts":"C:\\Users\\brhmr\\Desktop\\sst-examples2\\boomerang-liman\\.sst\\artifacts"}}
+2023-08-23T18:54:25.820Z  +9566ms [debug] Using AWS profile 
+2023-08-23T18:54:25.937Z   +117ms [debug] Created AWS client IoTClient
+2023-08-23T18:54:25.937Z     +0ms [debug] Getting IoT endpoint
+2023-08-23T18:54:26.539Z   +602ms [debug] Using IoT endpoint: ax5zr5fg1cia3-ats.iot.us-east-1.amazonaws.com
+2023-08-23T18:54:26.539Z     +0ms [debug] Initializing bootstrap context
+2023-08-23T18:54:26.541Z     +2ms [debug] Created AWS client CloudFormationClient
+2023-08-23T18:54:27.311Z   +770ms [debug] Loaded bootstrap status
+2023-08-23T18:54:27.311Z     +0ms [debug] Bootstrap context initialized {"status":"ready","version":"7.2","bucket":"sstbootstrap-useast124d14e4b-11l45ihw5lfvz"}
+2023-08-23T18:54:27.314Z     +3ms [debug] Created AWS client S3Client
+2023-08-23T18:54:27.538Z   +224ms [debug] Synthesizing stacks...
+2023-08-23T18:54:27.618Z    +80ms [debug] Created AWS client STSClient
+2023-08-23T18:54:28.128Z   +510ms [debug] IoT connected
+2023-08-23T18:54:28.274Z   +146ms [debug] Using identity Account: 456077151344 User: AIDAWUMCRBRYKHJKQ3XDT
+2023-08-23T18:54:28.663Z   +389ms [debug] Generating types in C:\Users\brhmr\Desktop\sst-examples2\boomerang-liman\.sst\types
+2023-08-23T18:54:28.674Z    +11ms [debug] Running 1 deferred tasks with concurrency: 7
+2023-08-23T18:54:29.332Z   +658ms [debug] 
+2023-08-23T18:54:29.332Z     +0ms [debug] Loading v2 AWS SDK
+2023-08-23T18:54:29.332Z     +0ms [debug] Finished synthesizing
+2023-08-23T18:54:30.068Z   +736ms [debug] Fetching metadata for stack dev-boomerang-liman-Site failed {"name":"NoSuchKey","$fault":"client","$metadata":{"httpStatusCode":404,"requestId":"MP95YV688KYA7A2S","extendedRequestId":"/Ai1X9BpmyetcGo+5ZhXO5RgrOhMsfdvrJ9rxw4bbgJi6jlZAtuoJ1f8TmG3nyWj5n04tFwvIrM=","attempts":1,"totalRetryDelay":0},"Code":"NoSuchKey","Key":"stackMetadata/app.boomerang-liman/stage.dev/stack.dev-boomerang-liman-Site.json","RequestId":"MP95YV688KYA7A2S","HostId":"/Ai1X9BpmyetcGo+5ZhXO5RgrOhMsfdvrJ9rxw4bbgJi6jlZAtuoJ1f8TmG3nyWj5n04tFwvIrM=","message":"The specified key does not exist."}
+2023-08-23T18:54:30.070Z     +2ms [debug] Created AWS client SSMClient
